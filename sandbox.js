@@ -1,7 +1,4 @@
-var character = "Mario";
-console.log(character);
-var inputs = document.querySelectorAll('input');
-console.log(inputs);
-inputs.forEach(function (input) {
-    console.log(input);
-});
+var circ = function (d) {
+    return d * Math.PI;
+};
+console.log(circ(14));

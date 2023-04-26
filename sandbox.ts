@@ -1,11 +1,5 @@
-const character = "Mario";
+const circ = (d: number) => {
+  return d * Math.PI
+}
 
-console.log(character);
-
-const inputs = document.querySelectorAll('input');
-
-console.log(inputs);
-
-inputs.forEach(input => {
-  console.log(input);
-})
+console.log(circ(14))
